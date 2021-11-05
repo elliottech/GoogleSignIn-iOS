@@ -148,7 +148,6 @@ typedef void (^GIDDisconnectCallback)(NSError *_Nullable error);
                            hint:(nullable NSString *)hint
                        callback:(nullable GIDSignInCallback)callback;
 
-
 /// Starts an interactive consent flow to add scopes to the current user's grants.
 ///
 /// The callback will be called at the end of this process.  If successful, a new `GIDGoogleUser`
